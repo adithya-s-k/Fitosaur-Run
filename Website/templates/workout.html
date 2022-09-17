@@ -1,0 +1,19 @@
+{%extends "base.html"%} 
+
+{%block head1%}
+<style>
+    body {
+      background-color: black;
+    }
+
+</style>
+{%endblock%}
+
+{%block body%} 
+  <div style="margin-left:12.5%;"><img src="{{url_for('video')}}" alt="test" width="83%"></div>
+  <a href="/game">
+    <button style="display: relative; margin:auto;">
+      Game
+    </button>
+  </a>
+{%endblock%}

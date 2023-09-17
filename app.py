@@ -92,7 +92,7 @@ def capture_frame_fullbody():
     cv2.destroyAllWindows()
     # //////////////////////////////////////////////////
     
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     cap.set(3,1280)
     cap.set(4,700)
     inputGoal = 3
@@ -233,7 +233,7 @@ def capture_frame_fullbody():
     cv2.destroyAllWindows()
     
     # ////////////////////////////////////////////////
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     cap.set(3,1280)
     cap.set(4,700)
     inputGoal=3
@@ -385,7 +385,7 @@ def capture_frame_fullbody():
     # //////////////////////////////////////////////////////
     
     # ////////////////////////////////////////////////
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     cap.set(3,1000)
     cap.set(4,700)
     inputGoal = 3
@@ -471,7 +471,7 @@ def capture_frame_fullbody():
     cv2.destroyAllWindows()
     # //////////////////////////////////////////////////////
     # ////////////////////////////////////////////////
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     cap.set(3,1280)
     cap.set(4,700)
     stage = None
@@ -631,7 +631,7 @@ def capture_frame_fullbody():
     # //////////////////////////////////////////////////////
     
     # ////////////////////////////////////////////////
-    '''cap = cv2.VideoCapture(1)
+    '''cap = cv2.VideoCapture(0)
     cap.set(3,1280)
     cap.set(4,700)
     inputGoal = 3
@@ -776,7 +776,7 @@ def capture_frame_fullbody():
     # //////////////////////////////////////////////////////'''
     
     # ///////////////////crunches
-    '''cap = cv2.VideoCapture(1)
+    '''cap = cv2.VideoCapture(0)
     cap.set(3,1280)
     cap.set(4,700)
     back_angle_r = 90
@@ -887,7 +887,7 @@ def capture_frame_fullbody():
     cv2.destroyAllWindows()
     # //////////////////////////////////////////////////////
     playsound('Audio Files\\bicepcurls.mp3')
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     cap.set(3,1280)
     cap.set(4,700)
     inputGoal = 3
@@ -1017,7 +1017,7 @@ def capture_frame_fullbody():
     # //////////////////////////////////////////////////////
     
     # /////////////////////////////////////////////////
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     cap.set(3,1280)
     cap.set(4,700)
     inputGoal = 3
@@ -1160,7 +1160,7 @@ def capture_frame_fullbody():
     # //////////////////////////////////////////////////////
     
     # //////////////////////////////////////////////////
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     cap.set(3,1000)
     cap.set(4,700)
     inputGoal = 3
@@ -1295,7 +1295,7 @@ def capture_frame_legs():
     cv2.destroyAllWindows()
     # //////////////////////////////////////////////////////
     
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     cap.set(3,1000)
     cap.set(4,700)
     inputGoal = 3
@@ -1423,7 +1423,7 @@ def capture_frame_legs():
     # //////////////////////////////////////////////////////
     
     # ////////////////////////////////////////////////
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     cap.set(3,1280)
     cap.set(4,700)
     inputGoal = 3
@@ -1573,7 +1573,7 @@ def capture_frame_yoga():
     holis = holistic.Pose()
     drawing = mp.solutions.drawing_utils
 
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     cap.set(3,1280)
     cap.set(4,700)
     time = 0
@@ -1623,7 +1623,7 @@ def capture_frame_yoga():
         b'Content-Type: image/jpeg\r\n\r\n'+frm+b'\r\n')
         
 def jump_detector():
-    cap = cv2.VideoCapture(1)
+    cap = cv2.VideoCapture(0)
     cap.set(3,1280)
     cap.set(4,700)
     time.sleep(1)  

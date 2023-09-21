@@ -8,4 +8,3 @@ pycryptodome
 pyrebase4
 requests
 keyboard
-playsound
